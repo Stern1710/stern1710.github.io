@@ -9,51 +9,55 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     
-    <title>Sternbauer</title>
+    <title>Katharina Sternbauer</title>
+    <link rel="icon" href="img/favicon.ico">
   </head>
   <body>
-      <!-- Navigation and top bar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+
+    <!-- Navigation and top bar -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
         <a class="navbar-brand" href="#">Sternbauer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About me</a>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My Projects</a>
+              <a class="nav-link text-white" href="#">CV</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
+              <a class="nav-link text-white" href="#">My Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Weblinks</a>
-              </li>
+              <a class="nav-link text-white" href="#">Weblinks</a>
+            </li>
           </ul>
         </div>
-      </nav>
+      </div> 
+    </nav>
 
       <!-- Main content part -->
       <div class="container">
-        <div class="card top-buffer">
+        <div class="card top-buffer my-3">
             <div class="card-body">
                 Some placeholders for information about myself
             </div>
         </div>
-        <div class="card top-buffer">
+        <div class="card top-buffer my-3">
+          <div class="card-body">
+              Some placeholders for my CV
+          </div>
+      </div>
+        <div class="card top-buffer my-3">
             <div class="card-body">
                 Some placeholders for my projects
             </div>
         </div>
-        <div class="card top-buffer">
-            <div class="card-body">
-                Some placeholders for my CV
-            </div>
-        </div>
-        <div class="card top-buffer">
+        <div class="card top-buffer my-3">
             <div class="card-body">
                 Some placeholders for other stuff I do and enjoy
             </div>
@@ -61,39 +65,41 @@
       </div>  
 
       <!-- footer -->
-      <div class="justify-content-center text-light bg-dark">
-        <footer class="container">
-            <div class="row mt-3 pt-5">
-                <div class="col-12 col-md-6">
+      <div class="text-white bg-dark">
+        <div class="container">
+            <div class="row mt-4 py-3 ml-1">
+                <div class="col-12 col-md-6 col-xl-3">
                     <h3 class="text-muted bold-text">Sternbauer</h3>
                     <ul class="list-unstyled">
                         <li>Student of Computer Science</li>
-                        <li>Working for Primetals Austria</li>
-                        <li>Linz / Freistadt</li>
+                        <li>Working at Primetals Austria</li>
+                        <li>Freelance editor for Tech-Review</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-xl-3">
                     <h3 class="text-muted bold-text">Links</h3>
                     <ul class="list-unstyled">
-                        <li><a class="text-white footer-link" href="https://github.com/Stern1710" target="_blank">Github</a></li>
-                        <li><a class="text-white footer-link" href="https://www.linkedin.com/in/simon-sternbauer-318717201/?originalSubdomain=at" target="_new">Linkedin</a></li>
-                        <li><a class="text-white footer-link" href="https://www.tech-review.de" target="_better">Tech-Review.de</a></li>
+                        <li><a class="text-info" href="https://github.com/Stern1710" target="_blank">Github</a></li>
+                        <li><a class="text-info" href="https://www.linkedin.com/in/simon-sternbauer-318717201/?originalSubdomain=at" target="_blank">Linkedin</a></li>
+                        <li><a class="text-info" href="https://www.tech-review.de" target="_blank">Tech-Review.de</a></li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-6">
-                    <h3 class="text-muted bold-text">Contact</h3>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <h3 class="text-muted bold-text">Contact me</h3>
                     <ul class="list-unstyled">
-                        <li>Email: <a href="mailto:k11812499@students.jku.at">k11812499@student.jku.at</a></li>
+                        <li>Email: <a class="text-info" href="mailto:k11812499@students.jku.at">k11812499@student.jku.at</a></li>
                         <li>Based in Linz and Freistadt</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-xl-3">
                     <h3 class="text-muted bold-text">Copyright</h3>
-                    <p>Sternbauer 2021 - All rights reserved</p>
+                    <ul class="list-unstyled">
+                      <li>© Sternbauer 2021</li>
+                      <li>All rights reserved</li>
+                    </ul>
                 </div>
-                
             </div>
-        </footer>
+          </div>
     </div>
 
   </body>
