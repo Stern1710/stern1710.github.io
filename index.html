@@ -1,74 +1,101 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/personalize.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
     <title>Sternbauer</title>
   </head>
   <body>
-    <nav>
-        <div class="nav-wrapper blue-grey darken-3">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="">About me</a></li>
-                <li><a href="">CV</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Weblinks</a></li>
-            </ul>
+      <!-- Navigation and top bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Sternbauer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Weblinks</a>
+              </li>
+          </ul>
         </div>
-    </nav>
-    <ul class="sidenav blue-grey darken-2" id="mobile-demo">
-        <li><a class="white-text" href="">About me</a></li>
-        <li><a class="white-text" href="">CV</a></li>
-        <li><a class="white-text" href="">Projects</a></li>
-        <li><a class="white-text" href="">Weblinks</a></li>
-    </ul>
-        
-    <div class="container">
-        <div class="card-panel pink darken-3 white-text">
-            Test card panel
-        </div>
-    </div>
-            
-    <footer class="page-footer blue-grey darken-3">
-        <div class="container">
-            <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Sternbauer</h5>
-                <p class="grey-text text-lighten-4">
-                    Student of Computer Science<br />
-                    Working for Primetals Austria<br />
-                    Linz / Freistadt<br />
-                </p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                <li><a class="white-text" href="">About me</a></li>
-                <li><a class="white-text" href="">CV</a></li>
-                <li><a class="white-text" href="">Projects</a></li>
-                <li><a class="white-text" href="">Weblinks</a></li>
-                </ul>
-            </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2021 All rights reserved
-            </div>
-        </div>
-    </footer>
+      </nav>
 
-    <!--JavaScript at end of body for optimized loading-->
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/loader.js"></script>
+      <!-- Main content part -->
+      <div class="container">
+        <div class="card top-buffer">
+            <div class="card-body">
+                Some placeholders for information about myself
+            </div>
+        </div>
+        <div class="card top-buffer">
+            <div class="card-body">
+                Some placeholders for my projects
+            </div>
+        </div>
+        <div class="card top-buffer">
+            <div class="card-body">
+                Some placeholders for my CV
+            </div>
+        </div>
+        <div class="card top-buffer">
+            <div class="card-body">
+                Some placeholders for other stuff I do and enjoy
+            </div>
+        </div>
+      </div>  
+
+      <!-- footer -->
+      <div class="justify-content-center text-light bg-dark">
+        <footer class="container">
+            <div class="row mt-3 pt-5">
+                <div class="col-12 col-md-6">
+                    <h3 class="text-muted bold-text">Sternbauer</h3>
+                    <ul class="list-unstyled">
+                        <li>Student of Computer Science</li>
+                        <li>Working for Primetals Austria</li>
+                        <li>Linz / Freistadt</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="text-muted bold-text">Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white footer-link" href="https://github.com/Stern1710" target="_blank">Github</a></li>
+                        <li><a class="text-white footer-link" href="https://www.linkedin.com/in/simon-sternbauer-318717201/?originalSubdomain=at" target="_new">Linkedin</a></li>
+                        <li><a class="text-white footer-link" href="https://www.tech-review.de" target="_better">Tech-Review.de</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="text-muted bold-text">Contact</h3>
+                    <ul class="list-unstyled">
+                        <li>Email: <a href="mailto:k11812499@students.jku.at">k11812499@student.jku.at</a></li>
+                        <li>Based in Linz and Freistadt</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="text-muted bold-text">Copyright</h3>
+                    <p>Sternbauer 2021 - All rights reserved</p>
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+
   </body>
 </html>
       
