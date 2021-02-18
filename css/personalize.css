@@ -3,34 +3,34 @@ html {
 }
 
 body { /* Fixes problem with hidding page content */
-    padding-top: 65px; 
+    padding-top: 70px; 
 }
 
-.footer-link {
-    color:white;
+.footer-heading-text {
+    color: #a8a8a8 !important;
 }
 
-.footer-link:hover {
-    color: grey;
-}
-
-.bold-text {
-    color: #989c9e !important;
-}
-
-.card-image-custom {
+.card-image-custom { /* For images in cards */
     height:200px;
     width:200px;
     overflow:hidden;
 }
 
 .card-no-border {
-    border: none;
+    border: none; /* In case a card does not need a border */
 }
 
 a.anchor {
     display: block;
     position: relative;
-    top: -50px;
+    top: -55px; /* offset for the anchor to display the heading correctly */
     visibility: hidden;
 }
+
+a.top-anchor {
+    display: block;
+    position: relative;
+    top: -80px; /* Anchor to top needs more offset as the alert is larger */
+    visibility: hidden;
+}
+
