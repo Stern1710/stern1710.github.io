@@ -21,7 +21,7 @@
 
 <body>
   <!-- Navigation and top bar -->
-  <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Sternbauer</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -49,14 +49,14 @@
 
   <!-- Main content part -->
   <div class="container">
-
     <!-- Alert that the page is not finished yet -->
-    <div class="alert alert-dark my-2" role="alert">
+    <div class="alert alert-dark my-2">
       This page is still under construction and not finished so far!
     </div>
     
     <!-- About me and myself -->
-    <div class="card border-top-0 border-left-0 border-right-0 border-success rounded-0 my-2" id="aboutMe">
+    <a class="anchor" id="aboutMe"></a>
+    <div class="card border-top-0 border-left-0 border-right-0 border-success rounded-0 my-2">
       <div class="card-body">
         <h1 class="card-title text-white"><span class="badge bg-success">About me</span></h1>
         <p class="card-text">Some placeholders for information about myself</p>
@@ -64,15 +64,17 @@
     </div>
 
     <!-- About the CV -->
-    <div class="card border-top-0 border-left-0 border-right-0 border-primary rounded-0 my-2" id="myCV">
+    <a class="anchor" id="myCV"></a>
+    <div class="card border-top-0 border-left-0 border-right-0 border-primary rounded-0 my-2">
       <div class="card-body">
         <h1 class="card-title text-white"><span class="badge bg-primary">CV</span></h1>
         <p class="card-text">Some placeholders for information about myself</p>
       </div>
     </div>
 
-    <!-- Projects -->
-    <div class="card border-top-0 border-left-0 border-right-0 border-warning rounded-0 my-2" id="projects">
+    <!-- Projects -->    
+    <a class="anchor" id="projects"></a>
+    <div class="card border-top-0 border-left-0 border-right-0 border-warning rounded-0 my-2">
       <div class="card-body">
         <h1 class="card-title text-white"><span class="badge bg-warning">Projects</span></h1>
         <p class="card-text">Throughout the last several years where I have actually done programming, some interesting ideads began to form. A few selected projects have also made it into a public repository which I'd like to feature.</p>
@@ -107,7 +109,7 @@
                 <span class="badge rounded-pill bg-info">Shell</span>
                 <span class="badge rounded-pill bg-info">SQL</span>
               </div>
-              <p class="card-text block">As part of the exercise track of "Embedded and Pervasive System" at JKU, we implemented an detection and alarm system for your beloved plants which monitores the soils moisture levels and saves the data into a simple database
+              <p class="card-text">As part of the exercise track of "Embedded and Pervasive System" at JKU, we implemented an detection and alarm system for your beloved plants which monitores the soils moisture levels and saves the data into a simple database
               </p>
               <a href="https://github.com/Stern1710/Raspi-Water-Detector" target="_blank" class="btn btn-warning">To Github</a>
               <a href="https://www.youtube.com/watch?v=Dot-cLDjO4Y&feature=youtu.be" target="_blank" class="btn btn-warning">Watch Demo</a>
@@ -125,7 +127,7 @@
                 <span class="badge rounded-pill bg-info">CSS</span>
                 <span class="badge rounded-pill bg-info">Javscript</span>
               </div>
-              <p class="card-text block">The source for this webpage is also freely available. It uses Bootstrap 4, directly loaded from a CDN, as its CSS framework and utilizes very little custom CSS and JavaScript for some smaller refinements.
+              <p class="card-text">The source for this webpage is also freely available. It uses Bootstrap 4, directly loaded from a CDN, as its CSS framework and utilizes very little custom CSS and JavaScript for some smaller refinements.
               </p>
               <a href="https://github.com/Stern1710/stern1710.github.io" target="_blank" class="btn btn-warning">To Github</a>
             </div>
@@ -135,7 +137,8 @@
     </div>
 
     <!-- Other interessting stuff from the web -->
-    <div class="card border-top-0 border-left-0 border-right-0 border-danger rounded-0 my-2" id="weblinks">
+    <a class="anchor" id="weblinks"></a>
+    <div class="card border-top-0 border-left-0 border-right-0 border-danger rounded-0 my-2">
       <div class="card-body">
         <h1 class="card-title text-white"><span class="badge bg-danger">Weblinks</span></h1>
         <p class="card-text">Some placeholders other cool stuff on the web</p>

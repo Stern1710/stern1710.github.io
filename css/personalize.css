@@ -2,6 +2,10 @@ html {
     scroll-behavior:smooth;
 }
 
+body { /* Fixes problem with hidding page content */
+    padding-top: 65px; 
+}
+
 .footer-link {
     color:white;
 }
@@ -22,4 +26,11 @@ html {
 
 .card-no-border {
     border: none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
