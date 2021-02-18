@@ -15,7 +15,7 @@
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
 
-  <title>Katharina Sternbauer</title>
+  <title>Stern1710 | Sternbauer</title>
   <link rel="icon" href="img/favicon.ico">
 </head>
 
@@ -31,16 +31,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About me</a>
+            <h4><a class="nav-link text-white" href="#aboutMe"><span class="badge bg-success">About me</span></a></h4>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">CV</a>
+            <h4><a class="nav-link text-white" href="#myCV"><span class="badge bg-primary">CV</span></a></h4>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">My Projects</a>
+            <h4><a class="nav-link text-white" href="#projects"><span class="badge bg-warning">Projects</span></a></h4>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Weblinks</a>
+            <h4><a class="nav-link text-white" href="#weblinks"><span class="badge bg-danger">Weblinks</span></a></h4>
           </li>
         </ul>
       </div>
@@ -49,24 +49,82 @@
 
   <!-- Main content part -->
   <div class="container">
-    <div class="card top-buffer my-3">
+
+    <div class="alert alert-dark my-2" role="alert">
+      This page is still under construction and not finished so far!
+    </div>
+    
+    <!-- About me and myself -->
+    <div class="card card-no-border my-2" id="aboutMe">
       <div class="card-body">
-        Some placeholders for information about myself
+        <h1 class="card-title text-white"><span class="badge bg-success">About me</span></h1>
+        <p class="card-text">Some placeholders for information about myself</p>
       </div>
     </div>
-    <div class="card top-buffer my-3">
+
+    <hr class="my-2"/>
+
+    <!-- About the CV -->
+    <div class="card card-no-border my-2" id="myCV">
       <div class="card-body">
-        Some placeholders for my CV
+        <h1 class="card-title text-white"><span class="badge bg-primary">CV</span></h1>
+        <p class="card-text">Some placeholders for information about myself</p>
       </div>
     </div>
-    <div class="card top-buffer my-3">
+
+    <hr class="my-2"/>
+
+    <!-- Projects -->
+    <div class="card card-no-border my-2" id="projects">
       <div class="card-body">
-        Some placeholders for my projects
+        <h1 class="card-title text-white"><span class="badge bg-warning">Project</span></h1>
+        <p class="card-text">Throughout the last several years where I have actually done programming, some interessting ideads began to form. A few selected projects have also made it into a public repository which I'd like to feature here</p>
+        
+        <div class="row">
+          <div class="card card-no-border col-12 col-md-6 col-xl-4 my-1">
+            <div class="text-center">
+              <img class="card-img-top card-image-custom" src="img/java_logo_compiler.png" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">MicroJava compiler</h5>
+              <div class="text-white">
+                <span class="badge rounded-pill bg-info">Java</span>
+                <span class="badge rounded-pill bg-info">JUnit</span>
+              </div>
+              <p class="card-text">As part of the exercise track of "Übersetzerbau" at JKU, we had to write our own compiler for the MicroJava language. The ready-to-use implementation additionally features labeled loops
+              </p>
+              <a href="https://github.com/Stern1710/MicroJava_Compiler" target="_blank" class="btn btn-warning">To Github</a>
+            </div>
+          </div>
+  
+          <div class="card card-no-border col-12 col-md-6 col-xl-4 my-1">
+            <div class="text-center mt-2">
+              <img class="card-img-top card-image-custom" src="img/HW_Setup_Plant.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">MicroJava compiler</h5>
+              <div class="text-white">
+                <span class="badge rounded-pill bg-info">Python</span>
+                <span class="badge rounded-pill bg-info">Shell</span>
+                <span class="badge rounded-pill bg-info">SQL</span>
+              </div>
+              <p class="card-text block">As part of the exercise track of "Embedded and Pervasive System" at JKU, we implemented an detection and alarm system for your beloved plants which monitores the soils moisture levels and saves the data into a simple database
+              </p>
+              <a href="https://github.com/Stern1710/Raspi-Water-Detector" target="_blank" class="btn btn-warning">To Github</a>
+              <a href="https://www.youtube.com/watch?v=Dot-cLDjO4Y&feature=youtu.be" target="_blank" class="btn btn-warning">Watch Demo</a>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
-    <div class="card top-buffer my-3">
+    <hr class="my-2"/>
+
+    <!-- Other interessting stuff from the web -->
+    <div class="card card-no-border my-2" id="myCV">
       <div class="card-body">
-        Some placeholders for other stuff I do and enjoy
+        <h1 class="card-title text-white"><span class="badge bg-danger">Weblinks</span></h1>
+        <p class="card-text">Some placeholders other cool stuff on the web</p>
       </div>
     </div>
   </div>
@@ -95,7 +153,7 @@
         <div class="col-12 col-md-6 col-xl-3">
           <h3 class="text-muted bold-text">Contact me</h3>
           <ul class="list-unstyled">
-            <li>Email: <a class="text-info" href="mailto:k11812499@students.jku.at">k11812499@student.jku.at</a></li>
+            <li>Email: <a class="text-info" href="mailto:k11812499@students.jku.at">k11812499@students.jku.at</a></li>
             <li>Based in Linz and Freistadt</li>
           </ul>
         </div>
@@ -109,6 +167,12 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+  $('.navbar-nav>li>h4>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+  </script>
 </body>
 
 </html>
