@@ -1,3 +1,7 @@
+html {
+    scroll-behavior:smooth;
+}
+
 .footer-link {
     color:white;
 }
@@ -8,4 +12,14 @@
 
 .bold-text {
     color: #989c9e !important;
+}
+
+.card-image-custom {
+    height:200px;
+    width:200px;
+    overflow:hidden;
+}
+
+.card-no-border {
+    border: none !important;
 }
