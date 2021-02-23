@@ -1,22 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en,de">
 
 <head>
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- General Information -->
+  <title>Stern1710 | Sternbauer</title>
+  <link rel="icon" href="img/favicon.ico">
 
+
+  <!--Meta information -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/">
+  <link rel="apple-touch-icon" href="img/favicon.ico">
+  <meta name="geo.placename" content="Linz,Austria">
+  <meta name="geo.region" content="Oberösterreich, Upper Austria, Austria">
+  <meta name="description" content="Simon Sternbauer - The personal info page of Simon Sternbauer">
+  <meta name="keywords" content="Simon Sternbauer, student, IT, Information Technology, Computer Science, JKU Digital, consulting, Sternbauer, Freistadt, Linz, personal, persönlich, webpage, homepage">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Simon Sternbauer">
+  <meta property="og:image" content="https://stern1710.github.io/img/Sternbauer_original.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stern1710.github.io">
+  <meta property="og:site_name" content="Simon Sternbauer">
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="css/personalize.css">
+  <link rel="stylesheet" href="css/timeline.css">
+
+  <!-- Load JS-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
-
-  <title>Stern1710 | Sternbauer</title>
-  <link rel="icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -71,68 +90,60 @@
     <div class="card border-top-0 border-left-0 border-right-0 border-primary rounded-0 my-2">
       <div class="card-body">
         <h1 class="card-title text-white"><span class="badge bg-primary">CV</span></h1>
-        <p class="card-text">Below is a listing of the most important parts of my PC, followed by a link to download the complete CV as a PDF file.</p>
-        <div class="row">
-          <div class="card border-primary border-left-0 border-right-0 border-bottom-0 rounded-0 col-12 col-md-6 col-xl-4 mt-2">
+        <p class="card-text">Below is a listing of the most important facts about my experiences, formal education and skills, followed by a link to download the complete CV as a PDF file.</p>
+        <div class="row justify-content-center">
+          <div class="card border-primary border-left-0 border-right-0 border-bottom-0 rounded-0 col-12 col-xl-6 mt-2">
             <div class="card-body">
-              <h5 class="card-title">Experience</h5>
-              <p class="card-text">
-                <ul>
-                  <li>
-                    <strong>Primetals Austria PTAT</strong><br />
-                    <span class="badge badge-pill badge-primary">Since October 2020</span></br>
-                    Software Engineer for Continous Casting Machines - Design and implementation of internal software tools in Java for designing casting machines
+              <h4 class="card-title">Experience</h4>
+              <div class="content">
+                <ul class="timeline">
+                  <li class="event" data-date="Since October 2020">
+                    <h3>Primetals Austria PTAT</h3>
+                    <p>Software Engineer for Continous Casting Machines - Design and implementation of internal software tools in Java for designing casting machines</p>
                   </li>
-                  <li>
-                    <strong>Student assistant at JKU</strong><br />
-                    <span class="badge badge-pill badge-primary">2019 - 2020</span><br />
-                    Institute for Integrated Circuits / Institute of Telecooperation
+                  <li class="event" data-date="2019 - 2020">
+                    <h3>Student assistant at JKU</h3>
+                    <p>Institute for Integrated Circuits / Institute of Telecooperation</p>
                   </li>
-                  <li>
-                    <strong>Internship Primetals Austria</strong><br />
-                    <span class="badge badge-pill badge-primary">Summer 2019</span> <span class="badge badge-pill badge-primary">Summer 2020</span><br />
-                    Software Engineer for Continous Casting Machines - Implementation of smaller software parts for internalsoftware tools to design casting machines
+                  <li class="event" data-date="Summer 2019 / 2020">
+                    <h3>Internship Primetals Austria</h3>
+                    <p>Software Engineer for Continous Casting Machines - Implementation of smaller software parts for internalsoftware tools to design casting machines</p>
                   </li>
-                  <li>
-                    <strong>Compulsory internships</strong><br />
-                    <span class="badge badge-pill badge-primary">Summer 2014 - 2016</span><br />
-                    Stiwa Group and Technosert - Implementation of backup tools, home automation vi-sualisations and hardware manufacturing
+                  <li class="event" data-date="Summer 2014 - 2016">
+                    <h3>Compulsory internships</h3>
+                    <p>Stiwa Group and Technosert - Implementation of backup tools, home automation vi-sualisations and hardware manufacturing</p>
                   </li>
                 </ul>
-              </p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-primary border-left-0 border-right-0 border-bottom-0 rounded-0 col-12 col-xl-6 mt-2">
+            <div class="card-body">
+              <h4 class="card-title">Education</h4>
+              <div class="content">
+                <ul class="timeline">
+                  <li class="event" data-date="Since 2018">
+                    <h3>BSc programm for Computer Science</h3>
+                    <p>Software Engineer for Continous Casting Machines - Design and implementation of internal software tools in Java for designing casting machines</p>
+                  </li>
+                  <li class="event" data-date="2017 - 2018">
+                    <h3>Community service - kindergarten assistant</h3>
+                    <p>Pfarrcaritas Kindergärten Freistadt</p>
+                  </li>
+                  <li class="event" data-date="2012 - 2017">
+                    <h3>High Technical College (HTL) Linz Paul-Hahn-Straße</h3>
+                    <p>Computer Science / Information Technology - A-Levels passed with distinction</p>
+                  </li>
+                  <li class="event" data-date="2004 - 2012">
+                    <h3>Elementary school and lower level grammar school in Freistadt</h3>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="card border-primary border-left-0 border-right-0 border-bottom-0 rounded-0 col-12 col-md-6 col-xl-4 mt-2">
             <div class="card-body">
-              <h5 class="card-title">Education</h5>
-              <p class="card-text">
-                <ul>
-                  <li>
-                    <strong>BSc programm for Computer Science</strong><br />
-                    <span class="badge badge-pill badge-primary">Since 2018</span><br />
-                    Johannes Kepler Universit ̈at Linz (JKU)
-                  </li>
-                  <li>
-                    <strong>Community service - kindergarten assistant</strong><br />
-                    <span class="badge badge-pill badge-primary">2017 - 2018</span><br >
-                    Pfarrcaritas Kindergärten Freistadt
-                  </li>
-                  <li>
-                    <strong>High Technical College (HTL) Linz Paul-Hahn-Straße</strong><br />
-                    <span class="badge badge-pill badge-primary">2012 - 2017</span><br />
-                    Computer Science / Information Technology - A-Levels passed with distinction
-                  </li>
-                  <li>
-                    <strong>Elementary school and lower level GrammarSchool (Gymnasium) Freistadt</strong><br />
-                    <span class="badge badge-pill badge-primary">2004 - 2012</span>
-                  </li>
-                </ul>
-              </p>
-            </div>
-          </div>
-          <div class="card border-primary border-left-0 border-right-0 border-bottom-0 rounded-0 col-12 col-md-6 col-xl-4 mt-2">
-            <div class="card-body">
-              <h5 class="card-title">Skills</h5>
+              <h4 class="card-title">Skills</h4>
               <p class="card-text">
                 <ul>
                   <li>
@@ -157,7 +168,7 @@
           </div>
           <div class="card border-primary border-left-0 border-right-0 border-bottom-0 rounded-0 col-12 col-md-6 col-xl-4 mt-2">
             <div class="card-body">
-              <h5 class="card-title">Get my CV</h5>
+              <h4 class="card-title">Get my CV</h4>
               <p class="card-text">Download the whole CV as a PDF file, written in LaTeX
               </p>
               <a href="files/sternbauer_cv.pdf" target="_blank" class="btn btn-primary">Download CV</a>
