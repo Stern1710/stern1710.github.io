@@ -1,6 +1,6 @@
 # stern1710.github.io #
 
-My personal github page
+My personal github page, accessible under [stern1710.github.io](https://stern1710.github.io) and mirrored to my personal domain [sternbauer.eu](https://sternbauer.eu) if a new feature is implemented fully
 
 ## License ##
 
