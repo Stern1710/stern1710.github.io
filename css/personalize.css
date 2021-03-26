@@ -16,6 +16,12 @@ body { /* Fixes problem with hidding page content */
     overflow:hidden;
 }
 
+.card-image-custom-large {
+    max-height:450px;
+    max-width:450px;
+    overflow:hidden;
+}
+
 .card-no-border {
     border: none; /* In case a card does not need a border */
 }
