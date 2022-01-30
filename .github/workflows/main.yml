@@ -1,17 +1,17 @@
 name: Deploy to sternbauer.eu
-on:
-  push:
+on: push
 jobs:
-  ci:
+  web-deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: FTP-Deploy-Action
+      - name: Sync files with FTP-Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          ftp-server: ${{ secrets.FTP_SERVER }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           exclude: | 
             **/.git*
             **/.git*/**
