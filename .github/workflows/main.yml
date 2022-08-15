@@ -13,7 +13,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
-          port: 22
           dry-run: true
           server-dir: ./
           exclude: | 
