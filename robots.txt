@@ -2,4 +2,4 @@ User-agent: *
 Disallow: 
 Disallow: /css/
 Disallow: /js/
-Sitemap: http://www.sternbauer.eu/files/sitemap.xml
+Sitemap: http://www.sternbauer.eu/sitemap.xml
