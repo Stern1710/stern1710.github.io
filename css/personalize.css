@@ -11,6 +11,10 @@ img {
     width: 100%;
   }
 
+h1 {
+    margin-bottom: 0.0rem;
+}
+
 .footer-heading-text {
     color: #a8a8a8 !important;
 }
