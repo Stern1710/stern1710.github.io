@@ -6,6 +6,11 @@ body { /* Fixes problem with hidding page content */
     padding-top: 70px; 
 }
 
+img {
+    height: auto;
+    width: 100%;
+  }
+
 .footer-heading-text {
     color: #a8a8a8 !important;
 }
