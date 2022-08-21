@@ -1,5 +1,6 @@
+/* General addition to style */
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 body { /* Fixes problem with hidding page content */
@@ -67,13 +68,7 @@ a.top-anchor {
     max-width: 98%;
 }
 
-.timeline h1 {
-    font-weight: 300;
-    font-size: 1.4em;
-}
-
-.timeline h2,
-.timeline h3 {
+.timeline .h3 {
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 10px;
