@@ -17,8 +17,8 @@ body { /* Fixes problem with hidding page content */
 }
 
 .card-image-custom-large {
-    max-height:450px;
-    max-width:450px;
+    max-height:500px;
+    max-width:500px;
     overflow:hidden;
 }
 
