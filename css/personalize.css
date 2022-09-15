@@ -32,10 +32,6 @@ h1 {
     overflow:hidden;
 }
 
-.card-no-border {
-    border: none; /* In case a card does not need a border */
-}
-
 a.anchor {
     display: block;
     position: relative;
