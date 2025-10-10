@@ -11,4 +11,4 @@ ExpiresByType image/webp "access plus 1 year"
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\.sternbauer\.eu [NC]
-RewriteRule (.*) https://www.sternbauer.eu/$1 [L]
+RewriteRule (.*) http://www.sternbauer.eu/$1 [R=301,L]
